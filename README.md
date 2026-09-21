@@ -142,7 +142,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) — it redirects to `/upload`.
+Open [https://earthre-case-study-frontend.vercel.app/upload](https://earthre-case-study-frontend.vercel.app/upload) — it redirects to `/upload`.
 
 ### Production build
 
