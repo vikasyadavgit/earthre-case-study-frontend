@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar";
 import UploadZone from "../components/UploadZone";
 import UploadResult from "../components/UploadResult";
 import { uploadCSV } from "../lib/api";
-import type { StoredState, UploadStatus } from "../lib/types";
+import type { StoredState, UploadResponse, UploadStatus } from "../lib/types";
 import { saveToStorage } from "../lib/utils";
 
 export default function UploadPage() {
