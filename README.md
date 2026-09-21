@@ -9,7 +9,7 @@ A full-stack SLA monitoring tool that ingests raw health-check CSVs, cleans the 
 | Layer | URL |
 |---|---|
 | **Frontend (Upload + Dashboard)** | https://earthre-case-study-frontend.vercel.app/upload |
-| **Backend API (AWS API Gateway)** | https://agzr8tflm1.execute-api.ap-south-1.amazonaws.com |
+| 
 
 > Last verified live: **22 Sep 2026**. Hosted on Vercel (frontend) and AWS Lambda + API Gateway (backend) — both free-tier, always-on.
 
@@ -137,8 +137,6 @@ cd earthre-case-study-frontend
 # Install dependencies
 npm install
 
-# Set the API base URL
-echo "NEXT_PUBLIC_API_URL=https://agzr8tflm1.execute-api.ap-south-1.amazonaws.com" > .env
 
 # Start the dev server
 npm run dev
@@ -185,3 +183,9 @@ app/
 4. **p99 latency** — p95 is shown; adding p99 costs nothing on the backend but gives a sharper view of worst-case outliers.
 5. **Dark/light mode toggle** — the UI is dark-only; a toggle would improve accessibility.
 6. **Export filtered logs as CSV** — useful for incident reports sent to billing or leadership.
+
+
+**GitHub Repositories:**
+
+- Frontend: https://github.com/vikasyadavgit/earthre-case-study-frontend
+- Backend: https://github.com/vikasyadavgit/earthre-case-study-backend
